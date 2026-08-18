@@ -1,4 +1,4 @@
-# Clase 9 — Expresiones for
+# Ejercicio 9 — Expresiones for
 
 Fundamentos de Programación Funcional y Concurrente
 Escuela de Ingeniería de Sistemas y Computación, Universidad del Valle
