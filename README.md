@@ -90,26 +90,21 @@ solución que acierte los casos conocidos por casualidad.
 
 ```bash
 ./gradlew test    # corre las pruebas
-./gradlew run     # corre el programa
 ```
 
-Las pruebas arrancan en rojo y su trabajo es ponerlas en verde. El informe
+Las pruebas arrancan en rojo y el trabajo es ponerlas en verde. El informe
 completo queda en `app/build/reports/tests/test/index.html`.
 
-## Cómo se entrega
+## Cómo se trabaja
 
 1. Haga fork de este repositorio.
 2. En su fork, abra la pestaña **Actions** y habilítelas. GitHub las deja
    desactivadas en las copias hasta que el dueño lo confirme.
 3. Clone, resuelva, haga commit y suba a `main`.
-4. En la tarea de la sesión en el campus, pegue la dirección de su fork y el
-   hash del último commit, que sale con `git rev-parse HEAD`.
-
-La calificación se hace sobre el commit reportado, no sobre lo que esté en el
-fork el día de la revisión.
+4. Verifique en **Actions** que la última ejecución quedó en verde.
 
 ## Restricciones
 
-Este curso trabaja sin estado mutable. Usar `var`, `while`, `return` o
-cualquier variable que cambie deja la nota en 3.0 como máximo, aunque todas
-las pruebas pasen.
+Este curso trabaja sin estado mutable: nada de `var`, `while`, `return` ni
+variables que cambien. El resultado correcto por el camino equivocado no
+cuenta como resultado correcto.
